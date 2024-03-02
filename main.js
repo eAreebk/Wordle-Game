@@ -1,9 +1,9 @@
-var displ=document.getElementById("disp");
+var board=document.getElementById("board");
 
 
 document.getElementById("dark").addEventListener('click',dark);
 function dark(){
-    displ.style.backgroundColor="black";
+    board.style.backgroundColor="black";
 }
 
 document.getElementById("bright").addEventListener('click',brite);
