@@ -1,5 +1,4 @@
 #disp {
-    width:100%;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -71,6 +70,7 @@
     flex-wrap: wrap;
     border: 2px solid goldenrod;
     padding: 10px 10px 10px 13px;
+    background-color: white;
 }
 
 .tile {
