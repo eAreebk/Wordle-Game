@@ -3,12 +3,12 @@ var board=document.getElementById("board");
 
 document.getElementById("dark").addEventListener('click',dark);
 function dark(){
-    board.style.backgroundColor="black";
+    board.style.backgroundColor ="rgba(30, 31, 30, 0.603)";
 }
 
-document.getElementById("bright").addEventListener('click',brite);
-function brite(){
-    displ.style.backgroundColor="white";
+document.getElementById("bright").addEventListener('click',bright);
+function bright(){
+    board.style.backgroundColor ="rgba(255, 255, 255, 0.904)";
 }
 
 
@@ -163,7 +163,7 @@ function update() {
     console.log(guess);
 
     if (!guessList.includes(guess)) {
-        document.getElementById("answer").innerText = "Not found";
+        document.getElementById("answer").innerText = "Not Found";
         return;
     }
     
